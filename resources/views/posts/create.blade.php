@@ -2,7 +2,7 @@
 
 @section('content')
         <h1>{{$title}}</h1>
-        <p>Here you can create a form</p>
+        <p>Here you can create a post</p>
         
         
         {!! Form::open(['action' => 'PostsController@store', 'method' => 'post']) !!}
